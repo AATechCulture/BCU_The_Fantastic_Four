@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import logo from './aalogo.png';
+// import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -6,17 +7,18 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        {/* this is where I get to add text inside the paragraph tag */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to SkyConnect where flights meets connections.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <button>Sign In</button>
+                 or
+        <button>Sign Up</button>
+        <button>Using LinkedIn</button>
+        
+        {/* <BrowserRouter>  */}
+        {/* </BrowserRouter> */}
+        
       </header>
     </div>
   );

@@ -1,9 +1,10 @@
 export function LandingPage() {
     return (
-        <div>
-        <h1>Landing Page</h1>
+        <div className="container">
+        {/* <h1>Connections in the air!</h1> */}
         </div>
     );
 
 
 }
+ 
